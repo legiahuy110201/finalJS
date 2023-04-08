@@ -1,0 +1,151 @@
+:root{
+    --main-color: #C2AF48;
+    --hp-color: #fff;
+    --sp-color: #F3C72A;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+.header{
+    background-color: var(--main-color);
+}
+.header-logo{
+    flex: 1;
+}
+.header-logo img{
+    width: 90px;
+    
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-navbar{
+    flex: 4;
+}
+.header-navbar-list{
+    padding: 27px;
+    display: flex;
+}
+
+.header-navbar-item a{
+    color: var(--hp-color);
+    font-size: 25px;
+    margin-left: 40px;
+
+}
+.header-icon{
+    padding: 25px;
+}
+.header-icon a{
+    font-size: 25px;
+    color: var(--hp-color);
+}
+.main-img{
+    margin-top: 20px;
+}
+
+.main-img-content p {
+    font-size: 20px;
+}
+.main-img-pic{
+    margin-top: 10px;
+}
+.main-img-pic img{
+    height: 150px;
+    width: 100%;
+}
+.data-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slider-product-one-content-item{
+    margin-top: 70px;
+    margin-left: 2px;
+    
+}
+.slider-product-one-content-item img{
+    width: 225px;
+}
+.slider-product-one-content-item-i li:first-child{
+    font-size: 20px;
+}
+.slider-product-one-content-item-i li:nth-child(2){
+    font-size: 15px;
+}
+.slider-product-one-content-item-i li:nth-child(3){
+    font-size: 15px;
+}
+
+/* bot */
+
+.header-bot{
+    margin-top: 200px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.header-bot-content{
+    display: flex;
+    justify-content: space-between;
+}
+.bot1{
+    padding: 30px;
+    height: 250px;
+    /* max-width: 1150px; */
+}
+.bot1>li a{
+    color: var(--hp-color);
+    
+}
+.bot1>li{
+    color: var(--hp-color);
+}
+.bot1 li:first-child{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bot1 li:nth-child(3){
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.bot1 a:hover{
+    color: brown;
+}
+.bot2-content{
+    margin-top: 30px;
+    color: var(--hp-color);
+    font-size: 30px;
+}
+.bot2{
+    display: flex;
+    margin-top: 10px;
+}
+.bot2 >li a {
+    color: var(--hp-color);
+}
+.bot2 li:nth-child(2){
+    margin-left: 20px;
+}
